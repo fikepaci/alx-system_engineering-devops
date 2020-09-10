@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo+x directory name \n
+chmod -R +X .
