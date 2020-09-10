@@ -1,1 +1,1 @@
-shell permission
+## this project is about commands to set permissions 
