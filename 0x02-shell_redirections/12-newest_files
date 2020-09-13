@@ -1,2 +1,2 @@
 #!/bin/bash
-tail `ls -t | head -n 10`
+ls -t * | head -10
