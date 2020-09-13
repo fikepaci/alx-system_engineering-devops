@@ -1,2 +1,2 @@
 #!/bin/bash
-find ~/holbertonschool -empty
+find . -empty
