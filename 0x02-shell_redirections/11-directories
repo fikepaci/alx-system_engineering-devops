@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lR | grep "^d" | wc -l
+echo $(($(find -type d -not -path '*/\.*'  | wc -l) - 1))
