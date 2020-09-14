@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name \*.gif
+exec find . -type f -a -name '*.[Gg][Ii][Ff]'
