@@ -1,2 +1,2 @@
 #!/bin/bash
-exec find . -type f -a -name '*.[Gg][Ii][Ff]'
+find . -type f -name "*.gif" -printf '%f\n' | rev | cut -c 5- | rev | sort -f
